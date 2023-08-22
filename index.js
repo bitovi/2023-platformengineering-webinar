@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send("Hello World - webinar-prep-0");
+  res.send("Hello Platform Engineering Webinar!");
 });
 
 app.listen( port, function () {
